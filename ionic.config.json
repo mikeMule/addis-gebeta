@@ -1,0 +1,7 @@
+{
+  "name": "addisGebeta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

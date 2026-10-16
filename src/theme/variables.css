@@ -1,0 +1,97 @@
+/* ---------------------------------------------------------------
+   Addis Gebeta — design tokens
+   Scene: a phone in a hand in Addis, daylight or a lit room, someone
+   hungry deciding fast. Light ground, brand red carried at band scale.
+   --------------------------------------------------------------- */
+:root {
+  color-scheme: light;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+  --ease-drawer: cubic-bezier(0.32, 0.72, 0, 1);
+  --dur-press: 160ms;
+  --dur-fast: 200ms;
+  --dur-base: 260ms;
+
+  /* Brand */
+  --brand: #e42f3a;
+  --brand-600: #c81f2b;
+  --brand-300: #f4797f;
+  --brand-100: #fde7e8;
+  --brand-50: #fff4f4;
+  --gold: #f6c343;
+  --ticket-green: #157a3c;
+  --ticket-blue: #1f8fd6;
+  --ticket-orange: #f26a1b;
+  --tsom: #2e7d32;
+  --tsom-soft: #e6f4e6;
+
+  /* Surfaces */
+  --bg: #ffffff;
+  --surface: #ffffff;
+  --surface-2: #f4f4f6;
+  --surface-3: #ececf0;
+  --line: #ececef;
+  --line-strong: #dcdce2;
+
+  /* Text — tinted neutrals, never pure grey */
+  --ink: #17171c;
+  --ink-2: #4a4a55;
+  --ink-3: #7c7c88;
+  --on-ink: #ffffff;
+  --hero-bg: #17171c;
+  --hero-ink: #ffffff;
+
+  /* Legacy aliases used by the parcel flow */
+  --accent: var(--brand);
+  --accent-ink: #ffffff;
+  --accent-soft: var(--brand-100);
+  --success: #1f9d55;
+  --success-soft: #def3e6;
+  --danger: #d93a2b;
+  --danger-soft: #fbe5e2;
+
+  /* Map */
+  --map-street: #fbfaf8;
+  --map-block: #efece6;
+  --map-park: #dcebd6;
+  --map-water: #d5e5ef;
+
+  --radius-xl: 28px;
+  --radius-lg: 22px;
+  --radius-md: 16px;
+  --radius-sm: 12px;
+  --shadow-card: 0 1px 2px rgba(23, 23, 28, 0.05), 0 8px 24px -14px rgba(23, 23, 28, 0.18);
+  --shadow-float: 0 4px 10px -2px rgba(23, 23, 28, 0.1), 0 18px 36px -14px rgba(23, 23, 28, 0.28);
+  --shadow-brand: 0 6px 14px -6px rgba(228, 47, 58, 0.55);
+
+  --font: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-geez: 'Noto Sans Ethiopic', var(--font);
+
+  /* Ionic mapping */
+  --ion-font-family: var(--font);
+  --ion-background-color: var(--bg);
+  --ion-background-color-rgb: 255, 255, 255;
+  --ion-text-color: var(--ink);
+  --ion-text-color-rgb: 23, 23, 28;
+  --ion-color-primary: #e42f3a;
+  --ion-color-primary-rgb: 228, 47, 58;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #c81f2b;
+  --ion-color-primary-tint: #e7444e;
+  --ion-toolbar-background: var(--bg);
+  --ion-item-background: var(--surface);
+  --ion-border-color: var(--line);
+}
+
+::selection {
+  background: var(--brand-100);
+  color: var(--brand-600);
+}
+
+input,
+textarea {
+  caret-color: var(--brand);
+}

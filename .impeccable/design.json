@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-16T11:56:24Z",
+  "title": "Design System: Addis Gebeta",
+  "extensions": {
+    "colorMeta": {
+      "brand": { "role": "primary", "displayName": "Mitad Red", "canonical": "#e42f3a", "tonalRamp": ["#5a0f15", "#8f1720", "#c81f2b", "#e42f3a", "#ec5059", "#f4797f", "#fde7e8", "#fff4f4"] },
+      "brand-600": { "role": "primary", "displayName": "Deep Berbere", "canonical": "#c81f2b", "tonalRamp": ["#5a0f15", "#8f1720", "#c81f2b", "#e42f3a", "#ec5059", "#f4797f", "#fde7e8", "#fff4f4"] },
+      "brand-300": { "role": "primary", "displayName": "Ember Pink", "canonical": "#f4797f", "tonalRamp": ["#5a0f15", "#8f1720", "#c81f2b", "#e42f3a", "#ec5059", "#f4797f", "#fde7e8", "#fff4f4"] },
+      "brand-100": { "role": "primary", "displayName": "Rose Wash", "canonical": "#fde7e8", "tonalRamp": ["#5a0f15", "#8f1720", "#c81f2b", "#e42f3a", "#ec5059", "#f4797f", "#fde7e8", "#fff4f4"] },
+      "brand-50": { "role": "primary", "displayName": "Blush Cloth", "canonical": "#fff4f4", "tonalRamp": ["#5a0f15", "#8f1720", "#c81f2b", "#e42f3a", "#ec5059", "#f4797f", "#fde7e8", "#fff4f4"] },
+      "gold": { "role": "secondary", "displayName": "Price-Tag Gold", "canonical": "#f6c343", "tonalRamp": ["#3d2c05", "#6b4f0c", "#9c7614", "#cf9f22", "#f6c343", "#f9d577", "#fce7ad", "#fef6e0"] },
+      "ticket-green": { "role": "secondary", "displayName": "Ticket Green", "canonical": "#157a3c", "tonalRamp": ["#06240f", "#0c4220", "#115f2e", "#157a3c", "#2e9a55", "#6fc28c", "#b6e2c4", "#e6f5eb"] },
+      "ticket-blue": { "role": "secondary", "displayName": "Ticket Blue", "canonical": "#1f8fd6", "tonalRamp": ["#08263a", "#0f4466", "#166493", "#1f8fd6", "#4fa9e2", "#86c5ec", "#c0e1f6", "#e9f4fc"] },
+      "ticket-orange": { "role": "secondary", "displayName": "Ticket Orange", "canonical": "#f26a1b", "tonalRamp": ["#3d1503", "#6e2707", "#a73c0d", "#f26a1b", "#f58b4d", "#f8ad80", "#fbd3b9", "#fef0e6"] },
+      "tsom": { "role": "tertiary", "displayName": "Tsom Green", "canonical": "#2e7d32", "tonalRamp": ["#0c2410", "#164019", "#215e25", "#2e7d32", "#4f9c52", "#86c188", "#c1e1c2", "#e6f4e6"] },
+      "tsom-soft": { "role": "tertiary", "displayName": "Tsom Leaf", "canonical": "#e6f4e6", "tonalRamp": ["#0c2410", "#164019", "#215e25", "#2e7d32", "#4f9c52", "#86c188", "#c1e1c2", "#e6f4e6"] },
+      "rating-star": { "role": "tertiary", "displayName": "Star Amber", "canonical": "#f5b301" },
+      "danger": { "role": "tertiary", "displayName": "Danger Red", "canonical": "#d93a2b", "tonalRamp": ["#3d0e09", "#6e1a12", "#a2261b", "#d93a2b", "#e3665a", "#ec958c", "#f5c6c1", "#fbe5e2"] },
+      "danger-soft": { "role": "tertiary", "displayName": "Danger Wash", "canonical": "#fbe5e2" },
+      "bg": { "role": "neutral", "displayName": "Cloth White", "canonical": "#ffffff" },
+      "surface-2": { "role": "neutral", "displayName": "Injera Grey", "canonical": "#f4f4f6", "tonalRamp": ["#17171c", "#4a4a55", "#7c7c88", "#dcdce2", "#ececef", "#ececf0", "#f4f4f6", "#ffffff"] },
+      "surface-3": { "role": "neutral", "displayName": "Pale Slate", "canonical": "#ececf0" },
+      "line": { "role": "neutral", "displayName": "Hairline", "canonical": "#ececef" },
+      "line-strong": { "role": "neutral", "displayName": "Firm Hairline", "canonical": "#dcdce2" },
+      "ink": { "role": "neutral", "displayName": "Coffee Ink", "canonical": "#17171c", "tonalRamp": ["#17171c", "#4a4a55", "#7c7c88", "#dcdce2", "#ececef", "#ececf0", "#f4f4f6", "#ffffff"] },
+      "ink-2": { "role": "neutral", "displayName": "Second Ink", "canonical": "#4a4a55" },
+      "ink-3": { "role": "neutral", "displayName": "Quiet Ink", "canonical": "#7c7c88" },
+      "on-ink": { "role": "neutral", "displayName": "On Red / On Ink", "canonical": "#ffffff" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Tab-screen page titles (For You, Orders)." },
+      "headline": { "displayName": "Headline", "purpose": "Home section heads; restaurant sheet name at 24px; feature titles at 27px over photos." },
+      "title": { "displayName": "Title", "purpose": "Restaurant names in lists; menu section heads at 700." },
+      "item": { "displayName": "Item", "purpose": "Dish names, cart counts, button labels." },
+      "body": { "displayName": "Body", "purpose": "Descriptions (two-line clamp), area lines, bill lines in ink-2/ink-3." },
+      "label": { "displayName": "Label", "purpose": "Tab-bar labels, meta pills, ETA captions." },
+      "offer": { "displayName": "Offer", "purpose": "Ticket discount figure and partner word." },
+      "geez": { "displayName": "Ge'ez", "purpose": "Identity voice: monograms and native-script feature lines only." }
+    },
+    "shadows": [
+      { "name": "card", "value": "0 1px 2px rgba(23,23,28,0.05), 0 8px 24px -14px rgba(23,23,28,0.18)", "purpose": "Resting cards and floating icon buttons." },
+      { "name": "float", "value": "0 4px 10px -2px rgba(23,23,28,0.1), 0 18px 36px -14px rgba(23,23,28,0.28)", "purpose": "Live-order strip, profile stat tiles." },
+      { "name": "brand", "value": "0 6px 14px -6px rgba(228,47,58,0.55)", "purpose": "Every red button and red control." },
+      { "name": "cart-bar", "value": "0 6px 14px -6px rgba(228,47,58,0.55), 0 18px 34px -16px rgba(120,10,20,0.55)", "purpose": "The floating red cart bar." },
+      { "name": "hairline", "value": "0 1px 0 #ececef", "purpose": "Row dividers drawn without layout shift." },
+      { "name": "outline", "value": "inset 0 0 0 1px #ececef", "purpose": "Group and tile outlines." },
+      { "name": "ring", "value": "0 0 0 2px #fff", "purpose": "Separate a monogram or button from an overlapped photo (3px on add buttons)." }
+    ],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(0.23, 1, 0.32, 1)", "purpose": "Press, entrances, steppers, thumbs." },
+      { "name": "ease-in-out", "value": "cubic-bezier(0.77, 0, 0.175, 1)", "purpose": "Symmetric on-screen moves." },
+      { "name": "ease-drawer", "value": "cubic-bezier(0.32, 0.72, 0, 1)", "purpose": "Sheets and the splash lift-away (420ms)." },
+      { "name": "dur-press", "value": "160ms", "purpose": "Press scale (0.97; 0.985 on large surfaces)." },
+      { "name": "dur-fast", "value": "200ms", "purpose": "Colour and background state changes." },
+      { "name": "dur-base", "value": "260ms", "purpose": "Standard transitions." },
+      { "name": "stagger", "value": "rise 380ms, 45ms per item", "purpose": "List entrances." },
+      { "name": "photo-fade", "value": "320ms ease", "purpose": "Loaded photo fades up once over its shimmer." }
+    ],
+    "breakpoints": [
+      { "name": "narrow-phone", "value": "379px", "purpose": "At or below, the distance meta pill drops its icon." },
+      { "name": "bar-max", "value": "560px", "purpose": "Page bars and the cart bar cap and centre." }
+    ]
+  },
+  "components": [
+    {
+      "name": "Brand Button",
+      "kind": "button",
+      "refersTo": "button-brand",
+      "description": "Full-width primary CTA: Place order, Track order.",
+      "html": "<button class=\"ds-btn-brand\">Place order · ETB 485</button>",
+      "css": ".ds-btn-brand { display: flex; align-items: center; justify-content: center; gap: 10px; height: 56px; width: 100%; border: 0; border-radius: 18px; background: var(--brand, #e42f3a); color: #fff; font-family: 'Rubik', sans-serif; font-size: 16px; font-weight: 700; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; box-shadow: 0 6px 14px -6px rgba(228,47,58,0.55); cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), opacity 200ms ease; } .ds-btn-brand:hover { background: #c81f2b; } .ds-btn-brand:active { transform: scale(0.97); } .ds-btn-brand:focus-visible { outline: 2px solid #e42f3a; outline-offset: 2px; } .ds-btn-brand:disabled { opacity: 0.3; }"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "refersTo": "button-text",
+      "description": "Low-weight red action: See all, Clear, Add more.",
+      "html": "<button class=\"ds-btn-text\">See all <svg width=\"17\" height=\"17\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M9 6l6 6-6 6\"/></svg></button>",
+      "css": ".ds-btn-text { display: inline-flex; align-items: center; gap: 2px; padding: 6px 2px; border: 0; background: none; color: #e42f3a; font-family: 'Rubik', sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1); } .ds-btn-text:hover { color: #c81f2b; } .ds-btn-text:active { transform: scale(0.97); } .ds-btn-text:focus-visible { outline: 2px solid #e42f3a; outline-offset: 2px; border-radius: 6px; }"
+    },
+    {
+      "name": "Add Button and Stepper",
+      "kind": "button",
+      "refersTo": "button-add",
+      "description": "Red circle that adds a dish; becomes a red pill stepper once in the cart.",
+      "html": "<div style=\"display:flex;gap:16px;align-items:center\"><button class=\"ds-add\" aria-label=\"Add\"><svg width=\"22\" height=\"22\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M12 5v14M5 12h14\"/></svg></button><div class=\"ds-stepper\"><button aria-label=\"Less\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M5 12h14\"/></svg></button><span>2</span><button aria-label=\"More\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"><path d=\"M12 5v14M5 12h14\"/></svg></button></div></div>",
+      "css": ".ds-add { display: grid; place-items: center; width: 40px; height: 40px; border: 0; border-radius: 50%; background: #e42f3a; color: #fff; box-shadow: 0 6px 14px -6px rgba(228,47,58,0.55), 0 0 0 3px #fff; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1); } .ds-add:hover { background: #c81f2b; } .ds-add:active { transform: scale(0.97); } .ds-add:focus-visible { outline: 2px solid #e42f3a; outline-offset: 4px; } .ds-stepper { display: inline-flex; align-items: center; height: 40px; border-radius: 99px; background: #e42f3a; color: #fff; box-shadow: 0 6px 14px -6px rgba(228,47,58,0.55), 0 0 0 3px #fff; font-family: 'Rubik', sans-serif; } .ds-stepper button { display: grid; place-items: center; width: 36px; height: 100%; border: 0; background: none; color: inherit; cursor: pointer; } .ds-stepper button:active { transform: scale(0.9); } .ds-stepper button:focus-visible { outline: 2px solid #fff; outline-offset: -4px; border-radius: 99px; } .ds-stepper span { min-width: 18px; text-align: center; font-size: 15px; font-weight: 700; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "filter-chip",
+      "description": "Home and search filters; selected fills solid brand red.",
+      "html": "<div style=\"display:flex;gap:10px\"><button class=\"ds-chip\" role=\"checkbox\" aria-checked=\"true\">Free delivery</button><button class=\"ds-chip\" role=\"checkbox\" aria-checked=\"false\">Tsom</button></div>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 8px; height: 46px; padding: 0 18px; border: 0; border-radius: 99px; background: #fff; box-shadow: inset 0 0 0 1.5px #dcdce2; color: #17171c; font-family: 'Rubik', sans-serif; font-size: 15px; font-weight: 500; white-space: nowrap; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 180ms ease, color 180ms ease, box-shadow 180ms ease; } .ds-chip:hover { box-shadow: inset 0 0 0 1.5px #7c7c88; } .ds-chip:active { transform: scale(0.97); } .ds-chip:focus-visible { outline: 2px solid #e42f3a; outline-offset: 2px; } .ds-chip[aria-checked='true'] { background: #e42f3a; color: #fff; box-shadow: inset 0 0 0 1.5px #e42f3a; }"
+    },
+    {
+      "name": "Menu Tabs",
+      "kind": "nav",
+      "refersTo": "menu-tab",
+      "description": "Sticky restaurant menu categories; the active tab is solid ink.",
+      "html": "<div class=\"ds-menu-tabs\"><button aria-current=\"true\">Signature platters</button><button>Tsom (fasting)</button><button>Snacks</button></div>",
+      "css": ".ds-menu-tabs { display: flex; gap: 8px; padding: 10px 0; box-shadow: 0 1px 0 #ececef; } .ds-menu-tabs button { flex: none; height: 38px; padding: 0 16px; border: 0; border-radius: 99px; background: #f4f4f6; color: #4a4a55; font-family: 'Rubik', sans-serif; font-size: 14.5px; font-weight: 500; cursor: pointer; transition: transform 160ms cubic-bezier(0.23,1,0.32,1), background-color 180ms ease, color 180ms ease; } .ds-menu-tabs button:hover { background: #ececf0; } .ds-menu-tabs button:active { transform: scale(0.97); } .ds-menu-tabs button:focus-visible { outline: 2px solid #e42f3a; outline-offset: 2px; } .ds-menu-tabs button[aria-current='true'] { background: #17171c; color: #fff; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Grey well that turns white with a red ring on focus.",
+      "html": "<label class=\"ds-search\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.2\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"M20 20l-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Dishes, restaurants, cuisines\"></label>",
+      "css": ".ds-search { display: flex; align-items: center; gap: 10px; height: 48px; padding: 0 14px; border-radius: 16px; background: #f4f4f6; color: #7c7c88; transition: background-color 180ms ease, box-shadow 180ms ease; } .ds-search:hover { background: #ececf0; } .ds-search:focus-within { background: #fff; box-shadow: inset 0 0 0 1.5px #e42f3a; } .ds-search input { flex: 1; min-width: 0; border: 0; outline: none; background: transparent; color: #17171c; font-family: 'Rubik', sans-serif; font-size: 16px; caret-color: #e42f3a; } .ds-search input::placeholder { color: #7c7c88; }"
+    },
+    {
+      "name": "Offer Ticket",
+      "kind": "card",
+      "refersTo": "offer-ticket",
+      "description": "Ticket-cut offer card with gold price tag and dashed perforation.",
+      "html": "<div class=\"ds-ticket\"><div class=\"ds-ticket-top\"><span class=\"ds-ticket-tag\">50%</span><span class=\"ds-ticket-sub\">OFF</span></div><div class=\"ds-ticket-rule\"></div><div class=\"ds-ticket-valid\"><span>Valid for</span><b>3 vendors</b></div></div>",
+      "css": ".ds-ticket { position: relative; width: 262px; height: 146px; padding: 18px 18px 0; border-radius: 18px; background: #157a3c; color: #fff; overflow: hidden; font-family: 'Rubik', sans-serif; transition: transform 160ms cubic-bezier(0.23,1,0.32,1); -webkit-mask: radial-gradient(circle 11px at 0 62%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 11px at 100% 62%, transparent 98%, #000) right / 51% 100% no-repeat; mask: radial-gradient(circle 11px at 0 62%, transparent 98%, #000) left / 51% 100% no-repeat, radial-gradient(circle 11px at 100% 62%, transparent 98%, #000) right / 51% 100% no-repeat; } .ds-ticket:active { transform: scale(0.985); } .ds-ticket::before { content: ''; position: absolute; right: -46px; top: -52px; width: 150px; height: 150px; border-radius: 50%; border: 18px solid rgba(255,255,255,0.09); } .ds-ticket-top { position: relative; display: flex; align-items: center; gap: 8px; } .ds-ticket-tag { padding: 3px 10px 2px; border-radius: 9px; background: #f6c343; color: #1d1a12; font-size: 27px; line-height: 1.15; font-weight: 800; letter-spacing: -0.02em; } .ds-ticket-sub { font-size: 27px; line-height: 1; font-weight: 800; } .ds-ticket-rule { position: absolute; left: 22px; right: 22px; top: 62%; border-top: 2px dashed rgba(255,255,255,0.5); } .ds-ticket-valid { position: absolute; left: 18px; bottom: 12px; display: flex; flex-direction: column; line-height: 1.25; } .ds-ticket-valid span { font-size: 11.5px; opacity: 0.85; } .ds-ticket-valid b { font-size: 15px; font-weight: 600; }"
+    },
+    {
+      "name": "Cart Bar",
+      "kind": "custom",
+      "refersTo": "cart-bar",
+      "description": "Floating red summary of the cart above the tab bar.",
+      "html": "<button class=\"ds-cart-bar\"><span class=\"ds-logo\">ሙ</span><span class=\"ds-cart-text\"><b>3 items</b><span>Mesob Corner</span></span><span class=\"ds-cart-total\">ETB 485 <svg width=\"19\" height=\"19\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M5 12h14M13 6l6 6-6 6\"/></svg></span></button>",
+      "css": ".ds-cart-bar { display: flex; align-items: center; gap: 12px; width: 100%; max-width: 540px; height: 66px; padding: 0 18px 0 13px; border: 0; border-radius: 22px; background: #e42f3a; color: #fff; font-family: 'Rubik', sans-serif; text-align: left; cursor: pointer; box-shadow: 0 6px 14px -6px rgba(228,47,58,0.55), 0 18px 34px -16px rgba(120,10,20,0.55); transition: transform 160ms cubic-bezier(0.23,1,0.32,1); } .ds-cart-bar:hover { background: #c81f2b; } .ds-cart-bar:active { transform: scale(0.985); } .ds-cart-bar:focus-visible { outline: 2px solid #e42f3a; outline-offset: 3px; } .ds-logo { flex: none; display: grid; place-items: center; width: 38px; height: 38px; border-radius: 11px; background: #7a1f1a; color: #f6c343; font-family: 'Noto Sans Ethiopic', sans-serif; font-weight: 800; font-size: 18px; box-shadow: 0 0 0 2px rgba(255,255,255,0.9); } .ds-cart-text { flex: 1; min-width: 0; display: flex; flex-direction: column; } .ds-cart-text b { font-size: 15.5px; font-weight: 600; } .ds-cart-text span { font-size: 12.5px; opacity: 0.85; } .ds-cart-total { display: inline-flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; font-variant-numeric: tabular-nums; }"
+    },
+    {
+      "name": "Tab Bar",
+      "kind": "nav",
+      "description": "Solid white bottom navigation; selected tab in brand red.",
+      "html": "<nav class=\"ds-tabbar\"><a aria-current=\"page\"><svg width=\"25\" height=\"25\" viewBox=\"0 0 24 24\" fill=\"currentColor\"><path d=\"M12 3l9 8h-3v9h-5v-6h-2v6H6v-9H3z\"/></svg>Home</a><a><svg width=\"25\" height=\"25\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><path d=\"M12 3l2.2 5.8L20 11l-5.8 2.2L12 19l-2.2-5.8L4 11l5.8-2.2z\"/></svg>For You</a><a><svg width=\"25\" height=\"25\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><rect x=\"5\" y=\"3\" width=\"14\" height=\"18\" rx=\"2\"/><path d=\"M9 8h6M9 12h6M9 16h4\"/></svg>Orders</a><a><svg width=\"25\" height=\"25\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.8\"><circle cx=\"12\" cy=\"8\" r=\"4\"/><path d=\"M4 21c1-4 4.5-6 8-6s7 2 8 6\"/></svg>Profile</a></nav>",
+      "css": ".ds-tabbar { display: grid; grid-template-columns: repeat(4, 1fr); height: 62px; background: #fff; box-shadow: 0 -1px 0 #ececef; font-family: 'Rubik', sans-serif; } .ds-tabbar a { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px; color: #7c7c88; font-size: 12px; font-weight: 500; text-decoration: none; cursor: pointer; transition: color 200ms ease; } .ds-tabbar a:hover { color: #4a4a55; } .ds-tabbar a:focus-visible { outline: 2px solid #e42f3a; outline-offset: -4px; border-radius: 12px; } .ds-tabbar a[aria-current='page'] { color: #e42f3a; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Red Table Runner",
+    "overview": "Addis Gebeta is laid like a table: a band of brand red (#E42F3A) runs across the top of the home and profile screens and melts into a white cloth, and everything set on that cloth is food. Photography carries the colour of the body of every screen; the UI itself stays white, tinted-neutral ink, and one confident red for whatever the hungry user should touch next. Density is high but calm: a 20px gutter, one horizontal-scroll grammar, and large rounded photo tiles (20–28px) that read at a glance with one thumb.\n\nThe world is a user-pinned reference (a red food-delivery home: service tiles, \"Deliver to\" bar, photo cuisine row, ticket-cut offers, monogram brand grid, filter chips, restaurant list) made Addis-native. Local identity arrives through Ge'ez type (Noto Sans Ethiopic) on monograms and feature lines, the green \"Tsom\" (fasting) signal beside Habesha dishes, and a single authored moment: the splash, where injera batter spirals over a red mitad, the six pits of a gebeta board are sown in playing order, and the wordmark settles before the cloth lifts away. The app is light-only (`color-scheme: light`); there is no dark theme.\n\nRestaurants and brands are fictional; their identities are drawn as typographic monograms on flat colour, never photographs of real logos.",
+    "keyCharacteristics": [
+      "Brand red at band scale (top gradient, cart bar, primary CTA), not sprinkled.",
+      "Photos are the colour; chrome is white plus tinted ink.",
+      "Big soft corners from one family (12 / 16 / 18 / 20 / 22 / 28, pills for chips).",
+      "Hairlines drawn as 1px box-shadows, not borders.",
+      "Ge'ez accents as identity, Rubik for everything functional.",
+      "Tactile press feedback on every tappable (scale 0.97, 0.985 on large surfaces)."
+    ],
+    "rules": [
+      { "name": "The Band-Scale Red Rule", "body": "Brand red appears as a field (the top band, the cart bar, a full-width CTA) or as a small decisive control (add button, selected chip). Between those scales it does not decorate; body chrome stays white and ink.", "section": "colors" },
+      { "name": "The Photos-Carry-Colour Rule", "body": "Food photography supplies the hue below the band. Do not add tinted card backgrounds to \"liven up\" a list; give it a photo.", "section": "colors" },
+      { "name": "The Tickets-Only Trio Rule", "body": "Green, blue and orange are offer-ticket grounds. They never become buttons, tags or icon colours.", "section": "colors" },
+      { "name": "The Tabular Money Rule", "body": "Every price, quantity, ETA and count uses `font-variant-numeric: tabular-nums`, so numbers never jitter when the cart changes.", "section": "typography" },
+      { "name": "The Ge'ez-As-Voice Rule", "body": "Ge'ez appears where identity speaks (monograms, a feature card's native-script line), never as running UI copy or as decoration on controls.", "section": "typography" },
+      { "name": "The Input-16 Rule", "body": "Text inputs are 16px or larger so iOS never zooms on focus.", "section": "typography" },
+      { "name": "The Tinted Shadow Rule", "body": "Shadows are never neutral black: ink-tinted on white elements, deep-red-tinted on red ones, with negative spread so they pool under the object rather than haloing it.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep brand red at band or control scale: the top gradient, the cart bar, the primary CTA, add buttons, selected chips.",
+      "Do lead every list and tile with a real photo, with an Injera Grey shimmer while it loads and a single 320ms fade once loaded.",
+      "Do draw dividers and outlines as 1px box-shadows in Hairline (#ececef) so nothing shifts on state change.",
+      "Do use tabular numerals for every price (ETB), quantity, ETA and count.",
+      "Do give every tappable the press scale (0.97, or 0.985 on large surfaces) on the 160ms ease-out.",
+      "Do tint shadows: ink-tinted on white, deep-red-tinted on red.",
+      "Do honour reduced motion: entrances fall back to a fade, shimmer stops, progress fills jump.",
+      "Do draw restaurant identities as fictional typographic monograms."
+    ],
+    "donts": [
+      "Don't use the ticket green, blue or orange anywhere but an offer ticket ground.",
+      "Don't use pure grey (#808080-style) text; use Coffee, Second or Quiet Ink.",
+      "Don't wrap restaurant or dish rows in individual shadowed cards; they are flat rows on white.",
+      "Don't use real brand names, logos or restaurant photos presented as partners.",
+      "Don't add a dark theme or glass/blur bars; the system is light-only and the tab bar is solid white.",
+      "Don't put Ge'ez on controls or running copy; it is the identity voice.",
+      "Don't use the monogram display faces (Bebas Neue, Pacifico, Abril Fatface) outside restaurant logos.",
+      "Don't add small uppercase kickers or eyebrows above headings; the legacy parcel screens still carry them and they are not part of this system."
+    ]
+  }
+}
